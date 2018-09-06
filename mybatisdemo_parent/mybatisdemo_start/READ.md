@@ -45,7 +45,7 @@
     <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
     
     <mapper namespace="mapper.ItemMapper">
-        <select id="getAllItem" resultType="Item">
+        <select id="getAllItem" resultType="pojo.Item">
             SELECT num,price, id,title FROM tb_item;
         </select>
     
