@@ -158,7 +158,6 @@
             </configuration>
         </plugin>
         <!-- java编译插件 -->
-
     </plugins>
     </build>
 </project>

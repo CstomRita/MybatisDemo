@@ -72,7 +72,8 @@ B 利用SQLSessionFactory获取SQLSession对象
 
 这个SqlSession对象才是真正执行 sqlSession.selectList("SQL语句id")
 
-这里注意的是这个方法利用的是SqlSession自己本身的selectList方法
+这里注意的是这个方法利用的是SqlSession自己本身的selectList方法通过命名空间调用方法，这是属于Myabtis2的方法
+在Mybatis3中使用动态代理直接调用接口方法，在第二节中讲到
 并没有使用Mapper中定义的接口方法，不过在后面会用到的
 这里先跑起来而已
 
