@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/mybatisdemo_parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatisdemo_parent/mybatisdemo_generator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatisdemo_parent/mybatisdemo_start" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatisdemo_parent/mybatisdemo_xml" charset="UTF-8" />
   </component>
 </project>
