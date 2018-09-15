@@ -26,6 +26,11 @@ pom.xml添加依赖
 
 通过 resource 或 url 指定，两者只能选一
 
+resources是classpath下的文件 
+
+URL是本机文件
+
+
 用的较少，可以不配置
 
 ### classPathEntry用来指定驱动Jar包的路径
